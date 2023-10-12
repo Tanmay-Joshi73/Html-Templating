@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .card h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            color: #333;
+        }
+
+        .card p {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>{Name}</h1>
+        <!-- <p>ID: {Id}</p> -->
+        <p>{Age}</p>
+        <p>College: {College}</p>
+        <p>Job: {Job}</p>
+        <p>Future Job: {Futute_Job}</p>
+        <a href="/Student_Page"><button>back</button></a>
+    </div>
+</body>
+</html>

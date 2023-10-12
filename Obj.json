@@ -1,0 +1,26 @@
+[
+    {
+        "Id":0,
+        "Name":"Tanmay Joshi",
+        "Age":18,
+        "Collage":"MIT",
+        "JOB":"Undefined",
+        "Futute_Job":"Remote_Job"
+    },
+    {
+        "Id":1,
+        "Name":"Sameer Joshi",
+        "Age":24,
+        "Collage":"DBIT",
+        "JOB":"Flexi Loans",
+        "Futute_Job":"Backend_Developer"
+    },
+    {
+        "Id":2,
+        "Name":"kaustubh narwade",
+        "Age":20,
+        "Collage":"LNMIT",
+        "JOB":"Undefined",
+        "Futute_Job":"Only He Knows"
+    }
+]
